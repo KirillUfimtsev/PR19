@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.article2.article2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="Первый замечательный предел"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/zam1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Термин замечательный предел широко используется в учебниках и методических пособиях для обозначения важных тождеств, которые помогают существенно упростить работу по нахождению пределов.\n\n   Лемма:\n   Предел отношения синуса к его аргументу равняется единице в случае стремления аргумента к 0.\n   Данная лемма служит основой для вычисления производных тригонометрических функций, которые содержат синус, арксинус, тангенс и арктангенс.\n   Но чтобы суметь привести свой предел к замечательному, нужно к нему хорошенько приглядеться, ведь они встречаются не в прямом виде, а часто в виде следствий, снабженные дополнительными слагаемыми и множителями. Впрочем, сначала теория, потом примеры, и все у вас получится\n   "/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

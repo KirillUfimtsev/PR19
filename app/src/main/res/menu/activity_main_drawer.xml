@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_article1"
+            android:title="Предел" />
+        <item
+            android:id="@+id/nav_article2"
+            android:title="Первый замечательный предел" />
+        <item
+            android:id="@+id/nav_article3"
+            android:title="Второй замечательный предел" />
+        <item
+            android:id="@+id/nav_article4"
+            android:title="Производная" />
+        <item
+            android:id="@+id/nav_article5"
+            android:title="Геометрический смысл производной" />
+        <item
+            android:id="@+id/nav_article6"
+            android:title="Неопределнный интеграл" />
+        <item
+            android:id="@+id/nav_article7"
+            android:title="Определенный интеграл" />
+    </group>
+</menu>

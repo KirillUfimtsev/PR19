@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.article6.article6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="Неопределенный интеграл"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/intt1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n   Интегрирование было известно еще в Древнем Египте. Конечно, не в современном виде, но все же. С тех пор математики написали очень много книг по этой теме. Особенно отличились Ньютон и Лейбниц, но суть вещей не изменилась.\n   Неопределенным интегралом функции f(x) называется такая функция F(x), производная которой равна функции f(x).\n   Другими словами интеграл – это производная наоборот или первообразная.\n   Первообразная существует для всех непрерывных функций. Также к первообразной часто прибавляют знак константы, так как производные функций, различающихся на константу, совпадают.\n   Процесс нахождения интеграла называется интегрированием.\n   Простой пример:"
+                    android:textSize="20dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/primerintt"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

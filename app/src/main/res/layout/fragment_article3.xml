@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.article3.article3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="Второй замечательный предел"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/zam2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="   Стоить заметить, что второй замечательный предел можно применять не всегда к показательно-степенной функции, а только в случаях когда основание стремится к единице. Для этого сначала в уме вычисляют предел основания, а затем уже делают выводы. Всё это будет рассмотрено в примерах решений.\n   Второй замечательный предел можно рассматривать и как предел последовательности для n принадлежит N, и как предел функции — в этом случае n принадлежит R.\n   Когда выражение под знаком предела находится в степени – это первый признак того, что нужно попытаться применить второй замечательный предел\n   Обратите внимание. Число е равно второму замечательному пределу по определению.Чтобы найти его приближённое значение и тем более доказать иррациональность, нужны совсем другие (и весьма объёмные) выкладки.\n   "/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

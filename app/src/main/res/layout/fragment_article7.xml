@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.article7.article7">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="Определенный интеграл"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/intt2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n   Как найти площадь фигуры, ограниченной графиком функции? С помощью интеграла! Разобьем криволинейную трапецию, ограниченную осями координат и графиком функции, на бесконечно малые отрезки. Таким образом фигура окажется разделена на тонкие столбики. Сумма площадей столбиков и будет составлять площадь трапеции. Но помните, что такое вычисление даст примерный результат. Однако чем меньше и уже будут отрезки, тем точнее будет вычисление. Если мы уменьшим их до такой степени, что длина будет стремиться к нулю, то сумма площадей отрезков будет стремиться к площади фигуры. Это и есть определенный интеграл.\n   Точки а и b называются пределами интегрирования.\n   Как считать определенный интеграл? С помощью формулы Ньютона-Лейбница. Мы уже выяснили, что определенный интеграл – это предел суммы. Но как получить конкретное значение при решении примера? Для этого существует формула Ньютона-Лейбница:"
+                    android:textSize="20dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/int4"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

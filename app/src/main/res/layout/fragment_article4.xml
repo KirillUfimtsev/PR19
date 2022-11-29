@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.article4.article4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="Производная"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/dirr1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="   Производная функции — понятие дифференциального исчисления, характеризующее скорость изменения функции в данной точке. Определяется как предел отношения приращения функции к приращению её аргумента при стремлении приращения аргумента к нулю, если такой предел существует.\n   Функцию, имеющую конечную производную (в некоторой точке), называют дифференцируемой (в данной точке).\n   Процесс вычисления производной называется дифференци́рованием. Обратный процесс — нахождение первообразной — интегрирование.\n   Если в точке x0 существует конечная производная функции y=f(x), то эта функция называется дифференцируемой в точке x0.\n   Если функция y=f(x) дифференцируема в каждой точке некоторого промежутка, то она дифференцируема на промежутке.\n   Алгебраический смысл: производная функции в точке есть угловой коэфициент касательной к графику этой функции\n   "/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

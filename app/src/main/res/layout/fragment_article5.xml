@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.article5.article5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="Геометрический смысл производной"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/dirr2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="\n   Нарисован график некоторой функции y=f(x). Возьмем на нем точку А с абсциссой x0. Проведём в этой точке касательную к графику функции. Мы хотим оценить, насколько круто вверх идет график функции.\n   Удобная величина для этого — тангенс угла наклона касательной. Производная функции f(x) в точке x0 равна тангенсу угла наклона касательной, проведённой к графику функции в этой точке.\n   Обратите внимание — в качестве угла наклона касательной мы берем угол между касательной и положительным направлением оси ОХ.\n   Производная функции в точке x0 равна угловому коэффициенту касательной, проведенной к графику функции в этой точке. Другими словами, производная равна тангенсу угла наклона касательной.\n   Если функция y=f(x) возрастает, ее производная положительна.\n   Если y=f(x) убывает, ее производная отрицательна.\n   "/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>
